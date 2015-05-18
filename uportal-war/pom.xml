@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.jasig.portal</groupId>
         <artifactId>uportal-parent</artifactId>
-        <version>4.0.15</version>
+        <version>4.0.16-SNAPSHOT</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -217,8 +217,13 @@
         </dependency>
         
         <dependency>
-            <groupId>org.codehaus.staxmate</groupId>
+            <groupId>com.fasterxml.staxmate</groupId>
             <artifactId>staxmate</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.codehaus.woodstox</groupId>
+            <artifactId>stax2-api</artifactId>
         </dependency>
 
         <dependency>
