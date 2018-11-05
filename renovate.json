@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "config:base",
+    ":rebaseStalePrs",
+    ":preserveSemverRanges",
+    ":semanticPrefixChore"
+  ],
+  "gradle": {
+    "enabled": true
+  },
+  "renovateFork": true
+}
