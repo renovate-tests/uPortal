@@ -3,7 +3,8 @@
     "config:base",
     ":rebaseStalePrs",
     ":preserveSemverRanges",
-    ":semanticPrefixChore"
+    ":semanticPrefixChore",
+    ":disableRateLimiting"
   ],
   "gradle": {
     "enabled": true
